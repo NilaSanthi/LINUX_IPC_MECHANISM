@@ -5,7 +5,7 @@
 #include "ipc_socket.h"
 
 int main() {
-    const char *message = "REML-SOC-Meta_uml";
+    const char *message = "IPC_TEST";
 
     // Create client-side socket and connect to the server
     int fd = create_client_socket();
