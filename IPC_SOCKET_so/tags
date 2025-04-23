@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -fPIC$/;"	m
+CLIENT_BIN	Makefile	/^CLIENT_BIN = client$/;"	m
+CLIENT_SOCK_FILE	ipc_socket.c	9;"	d	file:
+IPC_SOCKET_H	ipc_socket.h	4;"	d
+LDFLAGS	Makefile	/^LDFLAGS = -shared$/;"	m
+LIB_NAME	Makefile	/^LIB_NAME = libipc_socket.so$/;"	m
+SERVER_BIN	Makefile	/^SERVER_BIN = server$/;"	m
+SERVER_SOCK_FILE	ipc_socket.c	8;"	d	file:
+create_client_socket	ipc_socket.c	/^int create_client_socket() {$/;"	f
+create_server_socket	ipc_socket.c	/^int create_server_socket() {$/;"	f
+main	client.c	/^int main() {$/;"	f
+main	server.c	/^int main() {$/;"	f
+receive_message	ipc_socket.c	/^ssize_t receive_message(int fd, char *buff, size_t len) {$/;"	f
+send_message	ipc_socket.c	/^int send_message(int fd, const char *message) {$/;"	f
